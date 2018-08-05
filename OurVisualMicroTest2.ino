@@ -1,4 +1,5 @@
 #define LED 13
+#define Test 8
 
 int x = 0;
 
@@ -17,7 +18,7 @@ void loop()
 	Serial.print("X = ");
 	Serial.println(x);
 	digitalWrite(LED, HIGH);
-	delay(2000);
+	delay(5000);
 	x++;
 	if (x > 9) {
 		x = 0;
