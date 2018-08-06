@@ -1,4 +1,4 @@
-#define LED 13
+#define DefaultLED 13
 #define Test 8
 
 int x = 0;
@@ -7,7 +7,7 @@ void setup()
 {
 	Serial.begin(115200);
 	Serial.println("Hello, this is a test");
-	pinMode(LED, OUTPUT);
+	pinMode(DefaultLED, OUTPUT);
 	digitalWrite(LED, LOW);
 }
 
