@@ -24,3 +24,7 @@ void loop()
 		x = 0;
 	}
 }
+
+int test() {
+	Serial.print("This is a new branch");
+}
