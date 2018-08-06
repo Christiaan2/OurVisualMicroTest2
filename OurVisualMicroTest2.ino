@@ -5,7 +5,7 @@ int x = 0;
 
 void setup()
 {
-	Serial.begin(9600);
+	Serial.begin(115200);
 	Serial.println("Hello, this is a test");
 	pinMode(LED, OUTPUT);
 	digitalWrite(LED, LOW);
@@ -23,4 +23,8 @@ void loop()
 	if (x > 9) {
 		x = 0;
 	}
+}
+
+int test() {
+	Serial.print("This is a new branch");
 }
